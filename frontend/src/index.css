@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #111827;
+  font-family: "Segoe UI", "Avenir", "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.input {
+  @apply w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm outline-none focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/25;
+}
+
+.btn-primary {
+  @apply rounded-md bg-brand-blue px-4 py-2 text-sm font-semibold text-white hover:opacity-90;
+}
+
+.btn-secondary {
+  @apply rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100;
+}
